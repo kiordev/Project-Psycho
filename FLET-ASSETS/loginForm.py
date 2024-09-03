@@ -11,7 +11,7 @@ def main(page: ft.Page):
 
     def button_clicked(e):
         if loginfield.value==login and passfield.value==password:
-            enterText.value = "Welcome!"
+            enterText.value = "Welcomme!"
             enterText.size = 20
             enterText.color = ft.colors.GREEN
             page.update()
