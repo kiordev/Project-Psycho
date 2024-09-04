@@ -1,6 +1,10 @@
 import flet as ft
 
 def main(page: ft.Page):
-    page.add(ft.SafeArea(ft.Text("Hello, flet!")))
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.title = "Default Name"
+    page.bgcolor = "#94B5C1"
+    page.add()
 
-ft.app(main)
+ft.app(target=main)
