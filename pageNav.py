@@ -10,7 +10,7 @@ def main(page: ft.Page):
     page.padding = 0
 
     leftPrimeContaierColumn = ft.Column([
-        ft.ElevatedButton("Добавить пациента"),
+        ft.ElevatedButton("Доб1авить пациента"),
         ft.ElevatedButton("Найти пациента"),
         ft.ElevatedButton("Инструкции"),
     ])
