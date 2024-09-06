@@ -45,12 +45,7 @@ The application is designed to assist in diagnosing psychiatric disorders. It in
 ## Interface Descriptions
 
 The application includes several key interfaces:
-1. **Main Window**  
-   Displays essential information and provides access to diagnostic tools.
-2. **Diagnostic Window**  
-   Allows for conducting diagnostics and inputting patient data.
-3. **Results Window**  
-   Presents diagnostic results and recommendations.
+* in developing *
 
 ## Usage Recommendations
 
