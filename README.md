@@ -6,18 +6,7 @@ A desktop application for specialized doctors in the field of psychiatry and med
 The work was carried out within the framework of master's thesis by a student of the Faculty of Information Technologies, Priazovsky State Technical University.
 
 **Supervisor:** Associate Professor Iryna Fedorivna Marchenko  
-**Author:** Kior Alexander Sergeevich Kior, BT-23-M group
-
-### General
-![Screen1](./assets/Screen1.png)
-![Screen2](./assets/Screen2.png)
-![Screen3](./assets/Screen3.png)
-
-## Used Technology
-- **Python**
-- **GUI FLET**
-- **JSON**
-- **ChatGPT**
+**Author:** Bachelor of Computer Science Oleksandr Serhiyovych Kior
 
 ## Additional Education
 
