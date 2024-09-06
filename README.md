@@ -1,4 +1,4 @@
-# Desktop Application for Psychiatric Disorder Diagnosis
+# Desktop Application for registration and storage of patient data
 
 **Abstract**  
 A desktop application for specialized doctors in the field of psychiatry and medical psychology, for registration and storage of patient data with additional encryption and support for artificial intelligence.
