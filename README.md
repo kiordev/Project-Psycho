@@ -1,10 +1,23 @@
-# Desktop Application for Psychiatric Disorder Diagnosis
+# Desktop Application for registration and storage of patient data
 
 **Abstract**  
-A desktop application designed for the diagnosis of patients with neurotic and borderline psychiatric disorders, aimed at family physicians. The application is developed using the **Python** programming language and the **FLET** framework for building graphical user interfaces.  
-This project was completed as part of a thesis by a student of the Faculty of Information Technology at the Priazov State Technical University.  
+VERSION: 0.5.1 (06.09.2024)
+A desktop application for specialized doctors in the field of psychiatry and medical psychology, for registration and storage of patient data with additional encryption and support for artificial intelligence.
+The work was carried out within the framework of master's thesis by a student of the Faculty of Information Technologies, Priazovsky State Technical University.
+
 **Supervisor:** Associate Professor Iryna Fedorivna Marchenko  
-**Author:** Bachelor of Computer Science Oleksandr Serhiyovych Kior
+**Author:** Kior Alexander Sergeevich Kior, BT-23-M group
+
+### General
+![Screen1](./assets/Screen1.png)
+![Screen2](./assets/Screen2.png)
+![Screen3](./assets/Screen3.png)
+
+## Used Technology
+- **Python**
+- **GUI FLET**
+- **JSON**
+- **ChatGPT**
 
 ## Additional Education
 
@@ -31,7 +44,7 @@ This project was completed as part of a thesis by a student of the Faculty of In
 
 ## Brief Program Description
 
-The application is designed to assist family physicians in diagnosing psychiatric disorders. It includes a set of tools for conducting diagnostics, analyzing data, and providing treatment recommendations based on the results. The user interface is intuitive and easy to navigate.
+The application is designed to assist in diagnosing psychiatric disorders. It includes a set of tools for conducting diagnostics, analyzing data, and providing treatment recommendations based on the results. The user interface is intuitive and easy to navigate.
 
 ## Interface Descriptions
 
@@ -45,9 +58,7 @@ The application includes several key interfaces:
 
 ## Usage Recommendations
 
-1. Ensure all necessary libraries are installed before starting the application.
-2. Follow the step-by-step instructions in the program to conduct diagnostics.
-3. Diagnostic results should be used as a supplement to the professional assessment by a physician.
+* in developing *
 
 ## Legal Aspects
 
