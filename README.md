@@ -8,13 +8,11 @@ The work was carried out within the framework of master's thesis by a student of
 **Supervisor:** Associate Professor Iryna Fedorivna Marchenko  
 **Author:** Bachelor of Computer Science Oleksandr Serhiyovych Kior
 
-### Screen1
+### General
 ![Screen1](./assets/Screen1.png)
 
-### Screen2
 ![Screen2](./assets/Screen2.png)
 
-### Screen3
 ![Screen3](./assets/Screen3.png)
 
 ## Additional Education
