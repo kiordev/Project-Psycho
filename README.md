@@ -9,7 +9,7 @@ The work was carried out within the framework of master's thesis by a student of
 **Author:** Kior Alexander Sergeevich Kior, BT-23-M group
 
 ### General
-![Photo](https://i.ibb.co/6yvwkxm/Screen1.png)
+![Photo]([https://i.ibb.co/6yvwkxm/Screen1.png](https://raw.githubusercontent.com/madelinekinnaird/Gerrymandr/master/images/az1.PNG))
 ## Used Technology
 - **Python**
 - **GUI FLET**
