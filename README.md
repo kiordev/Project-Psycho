@@ -1,11 +1,17 @@
 # Desktop Application for registration and storage of patient data
 
 **Abstract**  
+VERSION: 0.5.1 (06.09.2024)
 A desktop application for specialized doctors in the field of psychiatry and medical psychology, for registration and storage of patient data with additional encryption and support for artificial intelligence.
 The work was carried out within the framework of master's thesis by a student of the Faculty of Information Technologies, Priazovsky State Technical University.
 
 **Supervisor:** Associate Professor Iryna Fedorivna Marchenko  
 **Author:** Kior Alexander Sergeevich Kior, BT-23-M group
+
+### General
+![Testing](https://ibb.co/qD0jvfd)
+![Testing](https://ibb.co/qNGSg4L)
+![Testing](https://ibb.co/mRG3rRD)
 
 ## Used Technology
 - **Python**
