@@ -10,12 +10,6 @@ The work was carried out within the framework of master's thesis by a student of
 
 ### General
 ![Testing](https://i.ibb.co/6yvwkxm/Screen1.png)
-![Testing](https://ibb.co/qNGSg4L)
-![Testing](https://ibb.co/mRG3rRD)
-
-![Testing](https://i.ibb.co/0Q5TP4n/image.png)
-![Testing](https://i.ibb.co/0Q5TP4n/image.png)
-![Testing](https://i.ibb.co/0Q5TP4n/image.png)
 
 ## Used Technology
 - **Python**
