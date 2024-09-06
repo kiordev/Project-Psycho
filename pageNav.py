@@ -1,29 +1,51 @@
 import flet as ft
 from design import *
+from pageFind import *
+from pageRules import *
+from addPatient import *
 
 def main(page: ft.Page):
     # Page Settings
-    page.title = "Med Storage Application"
-    page.icon = "assets/icon.png"
-    page
+    page.title = "Система адміністрування даних"
     page.window_height = 600
     page.window_width = 1000
-    page.window_resizable = True
+    page.window_resizable = False
     page.window_maximizable = False 
     page.padding = 0
+
+    # Функции переключения экранов
+    def FindScreenRaise(e):
+        rightPrimContainer.content = findScreen
+        page.update()
+
+    def RuleScreenRaise(e):
+        rightPrimContainer.content = ruleScreen
+        page.update()
+
+    def AddPatientScreenRaise(e):
+        rightPrimContainer.content = patientScreen
+        page.update()
 
     # Кнопки
 
     # Кнопка ДОБАВИТЬ ПАЦИЕНТА
     addPatientButton = ft.ElevatedButton(
-        "Добавить", 
+        "Додати", 
         icon="ADD",
         width=150,
         height=50,
         bgcolor=prime_color,
-        style=ft.ButtonStyle(
-        color={"2313": ft.colors.WHITE}  # Задаем цвет текста (например, белый)
-        )
+        color=light_color,
+        on_click=AddPatientScreenRaise
+    )
+
+    # Кнопка быстрое добавление
+    AIPatientButton = ft.ElevatedButton(
+        "AI Додавання", 
+        width=150,
+        height=50,
+        bgcolor=ft.colors.PURPLE_700,
+        color=light_color,
     )
     
     # Кнопка НАЙТИ ПАЦИЕНТА
@@ -31,10 +53,11 @@ def main(page: ft.Page):
         content=
             ft.Row([
                 ft.Icon(name=ft.icons.SEARCH, color=prime_color),
-                ft.Text("Найти", color=prime_color),
+                ft.Text("Знайти", color=prime_color),
             ], alignment=ft.MainAxisAlignment.START, spacing=15),
         width=150,
         height=50,
+        on_click=FindScreenRaise,
         
     )
     # Кнопка ПРАВИЛА
@@ -46,15 +69,17 @@ def main(page: ft.Page):
             ], alignment=ft.MainAxisAlignment.START, spacing=15),
         width=150,
         height=50,
+        on_click=RuleScreenRaise
     )
 
     # Колонка для кнопок
     leftPrimeContaierColumn = ft.Column([
         ft.Container(alignment=ft.alignment.bottom_center, content=ft.Icon(name=ft.icons.LOCAL_HOSPITAL, color=prime_color, size=50)),
         addPatientButton,
+        AIPatientButton,
         findPatientButton,
         FAQPatientButton,
-        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версия 0.1", text_align=ft.alignment.bottom_center, color=prime_color)),
+        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версія 0.5.1", text_align=ft.alignment.bottom_center, color=prime_color)),
     ], 
     )
 
@@ -65,7 +90,7 @@ def main(page: ft.Page):
         bgcolor=prime_color,
         alignment=ft.alignment.center,
         content=ft.Text(
-            "MEDICAL STORAGE SYSTEM", 
+            "СИСТЕМА АДМІНІСТРУВАННЯ ПАЦІЄНТІВ", 
             color=light_color, 
             size=35, 
             weight=ft.FontWeight.W_700,
@@ -82,7 +107,10 @@ def main(page: ft.Page):
     # Правый контейнер
     rightPrimContainer = ft.Container(
         bgcolor=light_color, 
-        expand=9)
+        expand=9,
+        width=300,     
+        height=600,
+        )
 
     # Главный ряд для левого и правого контейнера
     primRow = ft.Row([leftPrimContainer, ft.VerticalDivider(width=1), rightPrimContainer], 
@@ -96,7 +124,7 @@ def main(page: ft.Page):
     mainContainer = ft.Container(
         content=mainColumn, 
         bgcolor=sec_color, 
-        expand=8)
+        expand=9)
 
     page.add(mainContainer)
     
