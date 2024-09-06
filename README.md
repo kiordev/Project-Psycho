@@ -9,7 +9,7 @@ The work was carried out within the framework of master's thesis by a student of
 **Author:** Kior Alexander Sergeevich Kior, BT-23-M group
 
 ### General
-![Testing](https://i.ibb.co/6yvwkxm/Screen1.png)
+![Screen1](https://i.ibb.co/6yvwkxm/Screen1.png)
 
 ## Used Technology
 - **Python**
