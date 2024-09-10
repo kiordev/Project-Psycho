@@ -3,10 +3,11 @@ from design import *
 from pageFind import *
 from pageRules import *
 from addPatient import *
+from encryptPage import *
 
 def main(page: ft.Page):
     # Page Settings
-    page.title = "Система адміністрування даних"
+    page.title = "Система адміністрування пацієнтів"
     page.window_height = 600
     page.window_width = 1000
     page.window_resizable = False
@@ -25,6 +26,10 @@ def main(page: ft.Page):
     def AddPatientScreenRaise(e):
         rightPrimContainer.content = patientScreen
         page.update()
+    
+    def encryptionScreenRaise(e):
+        rightPrimContainer.content = encryptionScreen
+        page.update()
 
     # Кнопки
 
@@ -38,15 +43,17 @@ def main(page: ft.Page):
         color=light_color,
         on_click=AddPatientScreenRaise
     )
-
-    # Кнопка быстрое добавление
-    AIPatientButton = ft.ElevatedButton(
-        "AI Додавання", 
+    encryptionButton = ft.ElevatedButton(
+        "Кодування", 
+        icon="KEY",
         width=150,
         height=50,
-        bgcolor=ft.colors.PURPLE_700,
+        bgcolor=sec_color,
         color=light_color,
+        on_click=encryptionScreenRaise
     )
+
+    # Кнопка быстрое добавление
     
     # Кнопка НАЙТИ ПАЦИЕНТА
     findPatientButton = ft.OutlinedButton(
@@ -65,7 +72,7 @@ def main(page: ft.Page):
         content=
             ft.Row([
                 ft.Icon(name=ft.icons.WARNING, color=prime_color),
-                ft.Text("Правила", color=prime_color),
+                ft.Text("Інструкція", color=prime_color),
             ], alignment=ft.MainAxisAlignment.START, spacing=15),
         width=150,
         height=50,
@@ -76,10 +83,10 @@ def main(page: ft.Page):
     leftPrimeContaierColumn = ft.Column([
         ft.Container(alignment=ft.alignment.bottom_center, content=ft.Icon(name=ft.icons.LOCAL_HOSPITAL, color=prime_color, size=50)),
         addPatientButton,
-        AIPatientButton,
+        encryptionButton,
         findPatientButton,
         FAQPatientButton,
-        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версія 0.5.1", text_align=ft.alignment.bottom_center, color=prime_color)),
+        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версія 0.7.5", text_align=ft.alignment.bottom_center, color=prime_color)),
     ], 
     )
 
@@ -95,7 +102,7 @@ def main(page: ft.Page):
             size=35, 
             weight=ft.FontWeight.W_700,
             )
-        )
+    )
 
     # Левый контейнер
     leftPrimContainer = ft.Container(
