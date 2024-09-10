@@ -8,13 +8,11 @@ The work was carried out within the framework of master's thesis by a student of
 **Supervisor:** Associate Professor Iryna Fedorivna Marchenko  
 **Author:** Bachelor of Computer Science Oleksandr Serhiyovych Kior
 
-### Screen1
+### General
 ![Screen1](./assets/Screen1.png)
 
-### Screen2
 ![Screen2](./assets/Screen2.png)
 
-### Screen3
 ![Screen3](./assets/Screen3.png)
 
 ## Additional Education
@@ -47,12 +45,7 @@ The application is designed to assist in diagnosing psychiatric disorders. It in
 ## Interface Descriptions
 
 The application includes several key interfaces:
-1. **Main Window**  
-   Displays essential information and provides access to diagnostic tools.
-2. **Diagnostic Window**  
-   Allows for conducting diagnostics and inputting patient data.
-3. **Results Window**  
-   Presents diagnostic results and recommendations.
+* in developing *
 
 ## Usage Recommendations
 
