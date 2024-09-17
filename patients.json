@@ -10,173 +10,24 @@
         "dose": "20"
     },
     {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "08.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Alexandr",
-        "last_name": "Kior",
-        "age": "22",
-        "sex": "Чоловік",
-        "date": "13.15.2002",
-        "disorder": "Депресия",
-        "drug": "Мухоморчик",
-        "dose": "20"
-    },
-    {
-        "name": "Andrew",
-        "last_name": "Honcharenko",
-        "age": "",
-        "sex": null,
-        "date": "",
-        "disorder": "",
-        "drug": "",
-        "dose": ""
-    },
-    {
         "name": "Mark",
         "last_name": "Merc",
         "age": "21",
         "sex": "Чоловік",
-        "date": "10.09.2024",
+        "date": "10.11.2002",
         "disorder": "PTSD",
-        "drug": "Эсциталопрам",
+        "drug": "Реакт",
         "dose": "15"
+    },
+    {
+        "name": "Andrew",
+        "last_name": "Honcharenko",
+        "age": "21",
+        "sex": "Чоловік",
+        "date": "21.12.2001",
+        "disorder": "NPD",
+        "drug": "Рояль",
+        "dose": "10"
     }
+    
 ]
