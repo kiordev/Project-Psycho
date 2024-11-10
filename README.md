@@ -77,7 +77,11 @@ In summary, the provided code securely encrypts and decrypts patient data stored
 
 ## Usage Recommendations
 
-* in developing *
+Currently, the development of this program is on hold indefinitely and is unlikely to continue.
+
+The program has not undergone any clinical trials related to its use, so if you choose to use it, you do so at your own risk.
+
+Thank you for your understanding.
 
 ## Legal Aspects
 
