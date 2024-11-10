@@ -1,7 +1,7 @@
 # Desktop Application for registration and storage of patient data
 
 **Abstract**  
-VERSION: 0.5.1 (06.09.2024)
+VERSION: 0.7.5 (06.09.2024)
 A desktop application for specialized doctors in the field of psychiatry and medical psychology, for registration,storage of patient data with additional encryption and support.
 The work was carried out within the framework of master's thesis by a student of the Faculty of Information Technologies, Priazovsky State Technical University.
 
