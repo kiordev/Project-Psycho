@@ -86,7 +86,7 @@ def main(page: ft.Page):
         encryptionButton,
         findPatientButton,
         FAQPatientButton,
-        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версія 0.7.5", text_align=ft.alignment.bottom_center, color=prime_color)),
+        ft.Container(alignment=ft.alignment.bottom_left, content=ft.Text("Версія 0.8.1", text_align=ft.alignment.bottom_center, color=prime_color)),
     ], 
     )
 

@@ -6,7 +6,7 @@ def search_patient(e):
     search_query = searchTextField.value.split()  # Разделяем введенные данные на имя и фамилию
     if len(search_query) < 2:
         # Если введены неполные данные, показываем сообщение
-        dataBaseColumn.controls.append(ft.Text("Будь ласка, введіть ім'я та прізвище"))
+        dataBaseColumn.controls.append(ft.Text("Невідома помилка"))
         dataBaseColumn.update()
         return
 

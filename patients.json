@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Alexandr",
+        "last_name": "Kior",
+        "age": "22",
+        "sex": "Чоловік",
+        "date": "11.17.2001",
+        "disorder": "GDD",
+        "drug": "Эсциталопрам",
+        "dose": "20"
+    },
+    {
+        "name": "Mark",
+        "last_name": "Merc",
+        "age": "21",
+        "sex": "Чоловік",
+        "date": "10.11.2002",
+        "disorder": "PTSD",
+        "drug": "Мелитор",
+        "dose": "15"
+    },
+    {
+        "name": "Andrew",
+        "last_name": "Honcharenko",
+        "age": "21",
+        "sex": "Чоловік",
+        "date": "21.12.2001",
+        "disorder": "NPD",
+        "drug": "Мелитор",
+        "dose": "25"
+    },
+    {
+        "name": "",
+        "last_name": "",
+        "age": "",
+        "sex": null,
+        "date": "",
+        "disorder": "",
+        "drug": "",
+        "dose": ""
+    },
+    {
+        "name": "Ivan",
+        "last_name": "Ivanov",
+        "age": "21",
+        "sex": "Чоловік",
+        "date": "10.11.2024",
+        "disorder": "ADHD",
+        "drug": "Лівазол",
+        "dose": "15"
+    }
+]

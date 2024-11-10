@@ -64,12 +64,18 @@ def decrypt_data():
 
 # Функции для обработки событий кнопок
 def encrypt_button_click(e):
+    codeStatusText.value = "Успішно закодовано"
+    codeStatusText.color = "red"
+    dataBaseColumn.update()
     encrypt_data()
-    print("Файл зашифрован и сохранён как", encrypted_file)
+    
 
 def decrypt_button_click(e):
+    codeStatusText.value = "Успішно роскодовано"
+    codeStatusText.color = "green"
+    dataBaseColumn.update()
     decrypt_data()
-    print("Файл расшифрован и сохранён как", json_file)
+    
 
 # Кнопки кодирования
 encryptionButton = ft.ElevatedButton(
@@ -92,7 +98,7 @@ dencryptionButton = ft.ElevatedButton(
 )
 
 # Надпись статуса кодирования
-codeStatusText = ft.Text("Кодування успешное!", size=25, weight=ft.FontWeight.W_600, color="green")
+codeStatusText = ft.Text("", size=25, weight=ft.FontWeight.W_600, color="green")
 
 # Ряд для кнопок
 encryptionButtonRow = ft.Row([encryptionButton, dencryptionButton],  alignment=ft.MainAxisAlignment.CENTER, spacing=15)
